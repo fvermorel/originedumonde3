@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.oracle-edition.origine"
+        versionCode = "10" 
+        version     = "1.0.1" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>L’origine du Monde</name>
+
+    <description>
+        Le Chaos originel, la grande guerre des titans et des dieux et l’avénement de Zeus, roi du monde.
+    </description>
+
+ <author href="http://www.oracle-editions.com/" email="fvermorel@gmail.com">
+      Oracle Editions
+    </author>
+	<preference name="orientation" value="landscape" />
+	<preference name="target-device" value="tablet" />
+<icon src="icon.png" />
+<platform name="ios">
+        <!-- iOS 8.0+ -->
+        <!-- iPhone 6 Plus  -->
+        <icon src="icon-180.png" width="180" height="180" />
+        <!-- iOS 7.0+ -->
+        <!-- iPhone / iPod Touch  -->
+        <icon src="icon-60.png" width="60" height="60" />
+        <icon src="icon-120.png" width="120" height="120" />
+        <!-- iPad -->
+        <icon src="icon-76.png" width="76" height="76" />
+        <icon src="icon-152.png" width="152" height="152" />
+        <!-- Spotlight Icon -->
+        <icon src="icon-40.png" width="40" height="40" />
+        <icon src="icon-80.png" width="80" height="80" />
+        <!-- iOS 6.1 -->
+        <!-- iPhone / iPod Touch -->
+        <icon src="icon-57.png" width="57" height="57" />
+        <icon src="icon-114.png" width="114" height="114" />
+        <!-- iPad -->
+        <icon src="icon-72.png" width="72" height="72" />
+        <icon src="icon-144.png" width="144" height="144" />
+        <!-- iPad Pro -->
+        <icon src="icon-167.png" width="167" height="167" />
+        <!-- iPhone Spotlight and Settings Icon -->
+        <icon src="icon-29.png" width="29" height="29" />
+        <icon src="icon-58.png" width="58" height="58" />
+        <!-- iPad Spotlight and Settings Icon -->
+        <icon src="icon-50.png" width="50" height="50" />
+        <icon src="icon-100.png" width="100" height="100" />
+        <!-- iPad Pro -->
+        <icon src="icon-167.png" width="167" height="167" />
+    </platform>	
+	
+	<platform name="android">
+        <!--
+            ldpi    : 36x36 px
+            mdpi    : 48x48 px
+            hdpi    : 72x72 px
+            xhdpi   : 96x96 px
+            xxhdpi  : 144x144 px
+            xxxhdpi : 192x192 px
+        -->
+        <icon src="icon-36.png" density="ldpi" />
+        <icon src="icon-48.png" density="mdpi" />
+        <icon src="icon-72.png" density="hdpi" />
+        <icon src="icon-96.png" density="xhdpi" />
+        <icon src="icon-144.png" density="xxhdpi" />
+        <icon src="icon-192.png" density="xxxhdpi" />
+    </platform>
+	
+	
+	<splash src="splash.png" platform="ios" width="1024" height="768" />
+	
+	<splash src="splash-portrait.png" platform="ios" width="768" height="1024" />
+	<splash src="splash-568h.png" platform="ios" width="640" height="1136" />
+
+
+	<preference name="splash-screen-duration" value="5000"/>
+	<preference name="DisallowOverscroll" value="true" />
+<preference name="phonegap-version" value="cli-7.1.0" />
+
+<preference name="webviewbounce" value="false" />
+
+	<plugin name="cordova-plugin-inappbrowser" spec="1.1.1" />
+
+</widget>

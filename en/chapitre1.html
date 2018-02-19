@@ -1,0 +1,558 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Demo</title>
+<link rel="stylesheet" href="../fr/css/idangerous.swiper.css">
+<link rel="stylesheet" type="text/css" href="../fr/css/styleslide.css" />
+<link rel="stylesheet" type="text/css" href="../fr/css/a1.css" />
+
+<script type="text/javascript" src="../fr/js/jquery.js"></script>
+<!--	<script type="text/javascript" src="js/old.js"></script>	
+		<script type="text/javascript" src="js/book.js"></script> 	-->
+<!--	Plugin jQuery pour animations basées sur courbe de Bézier (ex : sinusoïde) -->
+<!--<script src="js/jquery.path.js"></script>-->
+<!--<script src="js/jquery-ui.min.js"></script>-->
+<!--	API CCom Interactive -->
+<script src="../fr/js/ccom.js"></script>
+<script type="text/javascript" src="../fr/js/encart.js"></script>
+<script type="text/javascript" src="../fr/js/script1.js"></script>
+<link rel="stylesheet" href="../fr/loader.css">
+<script type="text/javascript" src="../fr/loader.js"></script>
+<link rel="stylesheet" type="text/css" href="../fr/css/style.css"/>
+
+
+<!-- jQuery Plugin -->
+
+</head>
+<body>
+
+<!-- Load chapiter -->
+
+    
+
+<!--  -->
+
+
+<div class="swiper-container">
+<div id="retourAccueil"><a href="../index_en.html"><img src="../fr/img/home.png"/></a></div>
+  <div class="swiper-wrapper chapitre1">
+  
+  
+    <div class="swiper-slide page0" data-hash="slide0">
+  <div id="text">
+  <div id="textechargement">
+    <center>
+        <br />
+        <br />
+        <br />
+        <br />
+        <font size="5em"   face="verdana">1.</font><br />
+        <hr width="20%" size="1px" color="#FE2EC8">
+       Begining<br />
+    </center>
+    </div>
+    <div id="chargement"></div>
+     <audio id="voix0" preload="auto" autoplay type="audio/mpeg">
+              <source src="../fr/voices/intro.mp3"  type="audio/mpeg" autoplay="true" >
+            </audio>
+    <div class="next"> <img id="next0" src="../fr/img/next.png" alt="menu" class="arrow-right" /> </div>
+    <div class="prev"> <A href="../index_en.html"><img id="prev" src="../fr/img/prev-chap.png" alt="menu" /></A></div>
+    
+    </div>
+    
+    
+  </div>
+  
+  
+<div class="swiper-slide page1" data-hash="slide1">
+  <div id="text">
+       <div id="video1">
+        	<video  width="100%" height="100%" id="videotest1"  loop="true"  >
+  				<source src="../fr/resources/chapter1/a1.mp4" type="video/mp4"     />
+ 
+			</video>
+      	</div>
+  
+      <div class="prev"> <img  src="../fr/img/prev.png" alt="menu"  class="arrow-left" id="prev1" /></div>
+        
+           <div class="next"> <img  src="../fr/img/next.png" alt="menu" class="arrow-right" id="next1" /> </div>  
+    <div class="encart ">
+      <div id="lecture">
+        <div id="ecrit" class="ecrit"> </div>
+        <div id="son1" class="son">
+          <audio id="voix1" preload="auto" autostart="false" type="audio/mpeg">
+            <source src="../fr/voices/chapter1.mp3" autostart="false" type="audio/mpeg"  >
+          </audio>
+        </div>
+        <audio id="bruit1" preload="auto" autostart="false" type="audio/mpeg">
+          <source src="../fr/son/a1.mp3" autostart="false" type="audio/mpeg"  >
+        </audio>
+      </div>
+      <div class="texte"> <span class="titre">Our World</span> <br />
+        ⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁ <br />
+    Do you recognize this place? The air is so pure that if you were to inhale the fragrance of the lavender, your lungs would sting. Far away, waves are lapping on a luminous and smiling sea where dolphins are playing. The spring morning is so dazzling that you think it will never end. It is your world, it is our world, our Earth, the way we have always known it. But did you know that the world has not always been like this?</div>
+    </div>
+   
+  </div>
+<!--    <div id="lune" class="animpage1"></div>-->
+      
+</div>
+
+<!-- Fin page 1-->
+
+<div class="swiper-slide page2" data-hash="slide2">
+  <div id="text">
+  
+   <div id="video2">
+        	<video  width="100%" height="100%" id="videotest2"  loop="true"  >
+  				<source src="../fr/resources/chapter1/a2.mp4" type="video/mp4"     />
+ 
+			</video>
+      	</div>
+  
+   <div class="prev"> <img id="prev2" src="../fr/img/prev.png" alt="menu" class="arrow-left"/></div>
+        
+           <div class="next"> <img id="next2" src="../fr/img/next.png" alt="menu" class="arrow-right" /> </div>   
+    <div class="encart ">
+      <div id="lecture">
+        <div id="ecrit" class="ecrit"> </div>
+        <div id="son2" class="son">
+          <audio id="voix2" preload="auto" autostart="false" type="audio/mpeg">
+            <source src="../fr/voices/chapter2.mp3" autostart="false" type="audio/mpeg"  >
+          </audio>
+        </div>
+        <audio id="bruit2" preload="auto" autostart="false" type="audio/mpeg">
+          <source src="../fr/son/a2.mp3" autostart="false" type="audio/mpeg"  >
+        </audio>
+      </div>
+      <div class="texte"> <span class="titre">Original Chaos</span> <br/>
+        ⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁ <br />
+       At the beginning was Chaos. Where did it come from? How did it start? No answer can be given, for neither time nor space existed then. Chaos was all shapes and all substances, perpetual movement and agitation. An unlimited and untidy mass filling the whole universe: that was Chaos, the beginning and the end of everything.</div>
+    </div>
+    <div id="bulle2BIG">Vocabulary: Today, we call “chaos” a confusing state where you cannot find things. If your room is not tidied up your mother will probably tell you “it is chaos”!</div>
+    
+    <div  id="chouette2"></div>
+<!--    <div id="spirale" class="animpage2 pause"></div>
+    <div id="eclairs" class="animpage2 pause"></div>
+    <div id="lunes" class="animpage2 pause"></div>
+    <div id="perles02" class="animpage2 pause"></div>
+    <div id="plantes01" class="animpage2 pause"></div>
+    <div id="plantes01bis" class="animpage2 pause"></div>
+    <div id="plantes02" class="animpage2 pause"></div>
+-->
+  </div>
+         
+</div>
+
+<!-- Fin page 2-->
+
+<div class="swiper-slide page3" data-hash="slide3">
+  <div id="text">
+  <div id="video3">
+        	<video  width="100%" height="100%" id="videotest3"  loop="true"    >
+  				<source src="../fr/resources/chapter1/a3.mp4" type="video/mp4"   />
+ 
+			</video>
+      	</div>
+  
+  
+   <div class="prev"> <img id="prev3" src="../fr/img/prev.png" alt="menu" class="arrow-left"/></div>
+        
+           <div class="next"> <img id="next3" src="../fr/img/next.png" alt="menu" class="arrow-right" /> </div>
+    <div class="encart ">
+      <div id="lecture">
+        <div id="ecrit" class="ecrit"> </div>
+        <div id="son3" class="son">
+          <audio id="voix3" preload="auto" autostart="false" type="audio/mpeg">
+            <source src="../fr/voices/chapter3.mp3" autostart="false" type="audio/mpeg"  >
+          </audio>
+        </div>
+        <audio id="bruit3" preload="auto" autostart="false" type="audio/mpeg">
+          <source src="../fr/son/a3.mp3" autostart="false" type="audio/mpeg"  >
+        </audio>
+      </div>
+      <div class="texte"><span class="titre">The Sky and the Earth</br>
+        </span> ⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁ <br />
+       Chaos gave birth to Eros, the force of attraction, then to Gaia, the Earth. For the first time, a firm, solid and eternal plinth emerged from the original disorder. Then came Uranus, the Sky, followed by the Night and the Day. The universe finally got organized. But I’m sure you would agree with me: it would have been very difficult for us humans to live and inhabit such a place.</div>
+    </div>
+    <div id="bulle3BIG">In ancient times the earth was believed to be flat and the sky to cover it. It was only in the 17th century that Galileo demonstrated that our planet was round and that it revolved around the sun (see below, the “Clever Corner”)...</div>
+       <span class="bulle bulle3a animpage3  pause">It's enough !</span>
+ <!--   <div id="ventre" class="animpage3 pause"></div>-->
+    
+    <div class="chouette" id="chouette3"></div>
+
+  </div>
+            
+</div>
+
+<!-- Fin page 3-->
+
+
+<div class="swiper-slide page4" data-hash="slide4">
+  <div id="text">
+  <div class="prev"> <img id="prev4" src="../fr/img/prev.png" alt="menu" class="arrow-left"/></div>
+        
+           <div class="next"> <a href="chapitre2.html"><img id="next4" src="../fr/img/next.png" alt="menu" class="arrow-right" /></a> </div>
+    <div class="encart ">
+      <div id="lecture">
+        <div id="ecrit" class="ecrit"> </div>
+        <div id="son4" class="son">
+          <audio id="voix4" preload="auto" autostart="false" type="audio/mpeg">
+            <source src="../fr/voices/chapter4.mp3" autostart="false" type="audio/mpeg"  >
+          </audio>
+        </div>
+        <audio id="bruit4" preload="auto" autostart="false" type="audio/mpeg">
+          <source src="../fr/son/a4.mp3" autostart="false" type="audio/mpeg"  >
+        </audio>
+      </div>
+      <div class="texte"> <span class="titre">Uranus’s Sovereignty</span> <br />
+        ⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁ <br />
+        Uranus now governed the universe. From the original Chaos he conserved brutality and arbitrariness* (somebody is said to be arbitrary when he does whatever he wants without worrying about others). He covered Gaia completely and clung to her to make her have children. Thus were born the first Titans. But Uranus did not allow them to come out into the world: they remained squeezed in Gaia’s womb, underneath the Earth, which caused her terrible suffering.</div>
+    </div>
+
+    <div id="bebe" class="animpage4 pause"></div>
+    <div id="perles" class="animpage4 pause"></div>
+</div>
+
+
+
+
+    </div>
+ <!-- Fin page 4-->
+ 
+
+  <!--<div id="nav">
+    <div id="menu"> <img id="menuImg" src="../fr/img/menu.png" alt="menu" /> </div>
+  </div>-->
+  
+</div>
+
+  <div id="nav">
+    <div id="menu"> <img id="menuImg" src="../fr/img/menu.png" alt="menu" /> </div>
+  </div>
+     <div class="popup chapitres">
+        <div class="croixfermeture chapitresfermer"><img src="../fr/img/croix.png"  alt=""/></div>
+        <h2>Contents</h2>
+       <div class="imageschapitres">  <a href="chapitre1.html"> <img src="../fr/resources/menu1.jpg" class=""  alt=""/> </a></div>
+          <div class="imageschapitres"> <a href="chapitre2.html"> <img src="../fr/resources/menu2.jpg"  alt=""/> </a></div>
+           <div class="imageschapitres"><a href="chapitre3.html"> <img src="../fr/resources/menu3.jpg"  alt=""/> </a></div>
+         <div class="imageschapitres">  <a href="chapitre4.html"> <img src="../fr/resources/menu4.jpg"  alt=""/> </a></div>
+          <div class="imageschapitres"> <a href="chapitre5.html"> <img src="../fr/resources/menu5.jpg"  alt=""/> </a></div>
+           <div class="imageschapitres"><a href="coinmalin.html"> <img src="../fr/resources/menu6.jpg"  alt=""/> </a></div>
+           
+        
+        </div>
+<!--<script src="js/idangerous.swiper-2.1.min.js"></script> 
+<script src="js/idangerous.swiper.hashnav-1.0.js"></script> -->
+<script>
+
+$("#menu").click(function (){
+          $(".chapitres").toggleClass("visible");
+          });
+		  
+		   $(".chapitresfermer").click(function (){
+          $(".chapitres").toggleClass("visible");
+          });
+
+$( document ).ready(function() {
+	
+	
+	$('#next0').click(function(){
+		
+		$("#voix0").pauseMedia();
+    
+		$("#bruit1").playMedia();
+		
+		$("#voix1").playMedia();
+		
+		$(".animpage1").removeClass( "pause" );
+	
+		  var video1 = $('#videotest1');
+	  
+       video1[0].play();
+
+	
+	$( ".swiper-wrapper" ).animate({
+  
+    left: "-100%",
+
+  }, 500, function() {
+    // Animation complete.
+  });
+  
+	
+});
+	
+	 
+	$('#next1').click(function(){
+		$('#bruit2').playMedia();
+		$('#voix2').playMedia();
+		$(".animpage2").removeClass( "pause" );
+
+	
+		$('#bruit1').pauseMedia();
+		$('#voix1').pauseMedia();
+		$(".animpage1").addClass( "pause" );
+		
+		  var video2 = $('#videotest2');
+	  
+       video2[0].play(); 	
+   	
+	 var video1 = $('#videotest1');
+	  
+       video1[0].pause();
+		
+	
+	$( ".swiper-wrapper" ).animate({
+  
+    left: "-200%",
+
+  }, 500, function() {
+    // Animation complete.
+  });
+	
+});
+
+
+
+
+
+$('#next2').click(function(){
+    
+		$("#bruit3").playMedia();
+	
+		$("#voix3").playMedia();
+		$(".animpage3").removeClass( "pause" );
+		
+		
+		
+	
+	$('#voix2').pauseMedia();
+	$("#bruit2").pauseMedia(); 
+	$(".animpage2").addClass( "pause" );
+	
+	  var video2 = $('#videotest2');
+	  
+       video2[0].pause(); 	
+	
+	  var video3 = $('#videotest3');
+	  
+     	
+           video3[0].play();	
+	
+	$( ".swiper-wrapper" ).animate({
+  
+    left: "-300%",
+
+  }, 500, function() {
+    // Animation complete.
+  });
+	
+});
+
+$('#next3').click(function(){
+    
+		$("#bruit4").playMedia();
+	
+		$("#voix4").playMedia();
+		$(".animpage4").removeClass( "pause" );
+		
+			
+		
+	
+	$('#voix3').pauseMedia();
+	$("#bruit3").pauseMedia(); 
+	$(".animpage3").addClass( "pause" );
+	
+	  var video3 = $('#videotest3');
+	  
+       video3[0].pause();
+	
+	$( ".swiper-wrapper" ).animate({
+  
+    left: "-400%",
+
+  }, 500, function() {
+    // Animation complete.
+  });
+	
+});
+
+	$('#prev1').click(function(){
+		
+
+	
+		$('#bruit1').pauseMedia();
+		$('#voix1').pauseMedia();
+		$(".animpage1").addClass( "pause" );
+		
+		  var video1 = $('#videotest1');
+	  
+       video1[0].pause(); 	
+   	
+			$("#chargement").css("animation-play-state", "running");
+						$("#intro").playMedia();
+	
+	$( ".swiper-wrapper" ).animate({
+  
+    left: "0%",
+
+  }, 500, function() {
+    // Animation complete.
+  });
+	
+});
+
+
+$('#prev2').click(function(){
+    
+		$("#bruit1").playMedia();
+		
+		$("#voix1").playMedia();
+	
+		$(".animpage1").removeClass( "pause" );
+	
+		  var video1 = $('#videotest1');
+	  
+       video1[0].play();
+	
+	$('#voix2').pauseMedia();
+	$("#bruit2").pauseMedia(); 
+	$(".animpage2").addClass( "pause" );
+	
+	$( ".swiper-wrapper" ).animate({
+  
+    left: "-100%",
+
+  }, 500, function() {
+    // Animation complete.
+  });
+  
+	
+});
+
+$('#prev3').click(function(){
+    
+		$("#bruit2").playMedia();
+		
+		$("#voix2").playMedia();
+		
+		$(".animpage2").removeClass( "pause" );
+	
+		
+	
+	$('#voix3').pauseMedia();
+	$("#bruit3").pauseMedia(); 
+	$(".animpage3").addClass( "pause" );
+	
+	  var video2 = $('#videotest2');
+	  
+       video2[0].play();
+	
+	  var video3 = $('#videotest3');
+	  
+       video3[0].pause();
+	
+	$( ".swiper-wrapper" ).animate({
+  
+    left: "-200%",
+
+  }, 500, function() {
+    // Animation complete.
+  });
+  
+	
+});
+
+
+$('#prev4').click(function(){
+  
+		$("#bruit3").playMedia();
+		
+		$("#voix3").playMedia();
+		
+		$(".animpage3").removeClass( "pause" );
+		
+		var video3 = $('#videotest3');
+	  
+     	
+           video3[0].play();	
+	
+	$('#voix4').pauseMedia();
+	$("#bruit4").pauseMedia(); 
+	$(".animpage4").addClass( "pause" );
+
+	
+	
+	$( ".swiper-wrapper" ).animate({
+  
+    left: "-300%",
+
+  }, 500, function() {
+    // Animation complete.
+  });
+  
+	
+});
+
+$play1 = true;
+	  	$play2 = true;
+	  	$play3 = true;
+	  	$play4 = true;
+		$('#son1').click(function() {
+			$("#son1").toggleClass("sonhover");
+			if ($play1) {
+		        $('#voix1').pauseMedia();
+		        $play1 = false;
+			}
+			else {
+				$('#voix1').playMedia();
+				$play1 = true;
+			}
+        });
+		$('#son2').click(function() {
+			$("#son2").toggleClass("sonhover");
+			if ($play2) {
+		        $('#voix2').pauseMedia();
+		        $play2 = false;
+			}
+			else {
+				$('#voix2').playMedia();
+				$play2 = true;
+			}
+        });
+		$('#son3').click(function() {
+			$("#son3").toggleClass("sonhover");
+			if ($play3) {
+		        $('#voix3').pauseMedia();
+		        $play3 = false;
+			}
+			else {
+				$('#voix3').playMedia();
+				$play3 = true;
+			}
+        });
+		$('#son4').click(function() {
+			$("#son4").toggleClass("sonhover");
+			if ($play4) {
+		        $('#voix4').pauseMedia();
+		        $play4 = false;
+			}
+			else {
+				$('#voix4').playMedia();
+				$play4 = true;
+			}
+        });
+        
+ });
+
+
+  </script> 
+<script src="../fr/js/encart.js"></script>
+<script src="../fr/js/loading.js"></script> 
+
+<!-- Preloader -->
+
+</body>
+</html>

@@ -1,0 +1,1465 @@
+/*page 1*/
+
+#lune {
+    background-image: url("../resources/chapter1/img/a/lune.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 30%;
+    position: absolute;
+    top: 11%;
+    width: 3%;	
+	-webkit-animation: lune 4s linear infinite alternate;
+	-moz-animation: lune 4s linear infinite alternate;
+	animation: lune 4s linear infinite alternate;
+	
+	}
+@-webkit-keyframes lune {
+0% {-webkit-transform:rotate(0deg); transform:rotate(0deg); opacity:0.5;}
+25% {opacity:1}
+50% {-webkit-transform:rotate(0deg);  transform:rotate(0deg); opacity:0.5}
+75% {opacity:1}
+100% {-webkit-transform:rotate(-10deg); transform:rotate(-10deg); opacity:1;}
+}
+ @-moz-keyframes lune {
+0% {-webkit-transform:rotate(0deg); transform:rotate(0deg); opacity:0.5;}
+25% {opacity:1}
+50% {-webkit-transform:rotate(0deg);  transform:rotate(0deg); opacity:0.5}
+75% {opacity:1}
+100% {-webkit-transform:rotate(-10deg); transform:rotate(-10deg); opacity:1;}
+}
+ @keyframes lune {
+0% {-webkit-transform:rotate(0deg); transform:rotate(0deg); opacity:0.5;}
+25% {opacity:1}
+50% {-webkit-transform:rotate(0deg);  transform:rotate(0deg); opacity:0.5}
+75% {opacity:1}
+100% {-webkit-transform:rotate(-10deg); transform:rotate(-10deg); opacity:1;}
+}
+
+/*page 2*/
+
+#eclairs {
+    background-image: url("../resources/chapter1/img/b/eclairs.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 72%;
+    left: 23%;
+    position: absolute;
+    top: 15%;
+    width: 51%;	
+	-webkit-animation: eclairs 2s linear infinite;
+	-moz-animation: eclairs 2s linear infinite;
+	animation: eclairs 2s linear infinite;
+}
+@-webkit-keyframes eclairs {
+0% {-webkit-transform:rotate(0deg) scale(1.25); transform:rotate(0deg) scale(1.25); transform-origin: 50% 50%; opacity:0.2;}
+25% {-webkit-transform:rotate(78deg) scale(1); transform:rotate(78deg) scale(1); transform-origin: 50% 50%; opacity:1;}
+50% {-webkit-transform:rotate(2deg) scale(0.25);  transform:rotate(2deg) scale(0.25);transform-origin: 50% 50%; opacity:0.3;}
+75% {-webkit-transform:rotate(178deg) scale(0.80); transform:rotate(178deg) scale(0.80); transform-origin: 50% 50%; opacity:0.6;}
+100% {-webkit-transform:rotate(360deg) scale(1.25); transform:rotate(360deg) scale(1.25);transform-origin: 50% 50%; opacity:0.44;}
+}
+ @-moz-keyframes eclairs {
+0% {-webkit-transform:rotate(0deg) scale(1.25); transform:rotate(0deg) scale(1.25); transform-origin: 50% 50%; opacity:0.2;}
+25% {-webkit-transform:rotate(78deg) scale(1); transform:rotate(78deg) scale(1); transform-origin: 50% 50%; opacity:1;}
+50% {-webkit-transform:rotate(2deg) scale(0.25);  transform:rotate(2deg) scale(0.25);transform-origin: 50% 50%; opacity:0.3;}
+75% {-webkit-transform:rotate(178deg) scale(0.80); transform:rotate(178deg) scale(0.80); transform-origin: 50% 50%; opacity:0.6;}
+100% {-webkit-transform:rotate(360deg) scale(1.25); transform:rotate(360deg) scale(1.25);transform-origin: 50% 50%; opacity:0.44;}
+}
+ @keyframes eclairs {
+0% {-webkit-transform:rotate(0deg) scale(1.25); transform:rotate(0deg) scale(1.25); transform-origin: 50% 50%; opacity:0.2;}
+25% {-webkit-transform:rotate(78deg) scale(1); transform:rotate(78deg) scale(1); transform-origin: 50% 50%; opacity:1;}
+50% {-webkit-transform:rotate(2deg) scale(0.25);  transform:rotate(2deg) scale(0.25);transform-origin: 50% 50%; opacity:0.3;}
+75% {-webkit-transform:rotate(178deg) scale(0.80); transform:rotate(178deg) scale(0.80); transform-origin: 50% 50%; opacity:0.6;}
+100% {-webkit-transform:rotate(360deg) scale(1.25); transform:rotate(360deg) scale(1.25);transform-origin: 50% 50%; opacity:0.44;}
+}
+
+#lunes {
+    background-image: url("../resources/chapter1/img/b/lunes.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 24%;
+    left: 40%;
+    position: absolute;
+    top: 38%;
+    width: 18%;	
+	-webkit-animation: lunes 7s linear infinite;
+	-moz-animation: lunes 7s linear infinite;
+	animation: lunes 7s linear infinite;
+}
+@-webkit-keyframes lunes {
+0% {-webkit-transform:rotate(0deg) scale(1.25); transform:rotate(0deg) scale(1.25); transform-origin: 50% 50%; opacity:0.2;}
+25% {-webkit-transform:rotate(78deg) scale(1); transform:rotate(78deg) scale(1); transform-origin: 50% 50%; opacity:1;}
+50% {-webkit-transform:rotate(2deg) scale(0.25);  transform:rotate(2deg) scale(0.25);transform-origin: 50% 50%; opacity:0.3;}
+75% {-webkit-transform:rotate(178deg) scale(0.80); transform:rotate(178deg) scale(0.80); transform-origin: 50% 50%; opacity:0.6;}
+100% {-webkit-transform:rotate(360deg) scale(1.25); transform:rotate(360deg) scale(1.25);transform-origin: 50% 50%; opacity:0.44;}
+}
+ @-moz-keyframes lunes {
+0% {-webkit-transform:rotate(0deg) scale(1.25); transform:rotate(0deg) scale(1.25); transform-origin: 50% 50%; opacity:0.2;}
+25% {-webkit-transform:rotate(78deg) scale(1); transform:rotate(78deg) scale(1); transform-origin: 50% 50%; opacity:1;}
+50% {-webkit-transform:rotate(2deg) scale(0.25);  transform:rotate(2deg) scale(0.25);transform-origin: 50% 50%; opacity:0.3;}
+75% {-webkit-transform:rotate(178deg) scale(0.80); transform:rotate(178deg) scale(0.80); transform-origin: 50% 50%; opacity:0.6;}
+100% {-webkit-transform:rotate(360deg) scale(1.25); transform:rotate(360deg) scale(1.25);transform-origin: 50% 50%; opacity:0.44;}
+}
+ @keyframes lunes {
+0% {-webkit-transform:rotate(0deg) scale(1.25); transform:rotate(0deg) scale(1.25); transform-origin: 50% 50%; opacity:0.2;}
+25% {-webkit-transform:rotate(78deg) scale(1); transform:rotate(78deg) scale(1); transform-origin: 50% 50%; opacity:1;}
+50% {-webkit-transform:rotate(2deg) scale(0.25);  transform:rotate(2deg) scale(0.25);transform-origin: 50% 50%; opacity:0.3;}
+75% {-webkit-transform:rotate(178deg) scale(0.80); transform:rotate(178deg) scale(0.80); transform-origin: 50% 50%; opacity:0.6;}
+100% {-webkit-transform:rotate(360deg) scale(1.25); transform:rotate(360deg) scale(1.25);transform-origin: 50% 50%; opacity:0.44;}
+}
+
+#perles02 {
+    background-image: url("../resources/chapter1/img/b/perles02.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    left: 12%;
+	opacity:0.5;
+    position: absolute;
+    top: 0;
+    width: 75%;	
+	-webkit-animation: perles02 5s linear infinite;
+	-moz-animation: perles02 5s linear infinite;
+	animation: perles02 5s linear infinite;
+}
+@-webkit-keyframes perles02 {
+0% {left: 12%; top: 0%; -webkit-transform:rotate(0deg) scale(1.25); transform:rotate(0deg) scale(1.25); transform-origin: 50% 50%; opacity:0.2;}
+25% {left: -5%; top: 10%; -webkit-transform:rotate(78deg) scale(1); transform:rotate(78deg) scale(1); transform-origin: 50% 50%; opacity:1;}
+50% {left: 25%; top: 2%; -webkit-transform:rotate(2deg) scale(0.25);  transform:rotate(2deg) scale(0.25);transform-origin: 50% 50%; opacity:0.3;}
+75% {left: -12%; top: 40%; -webkit-transform:rotate(178deg) scale(0.80); transform:rotate(178deg) scale(0.80); transform-origin: 50% 50%; opacity:0.6;}
+100% {left: 12%; top: 0%; -webkit-transform:rotate(360deg) scale(1.25); transform:rotate(360deg) scale(1.25);transform-origin: 50% 50%; opacity:0.44;}
+}
+ @-moz-keyframes perles02 {
+0% {left: 12%; top: 0%; -webkit-transform:rotate(0deg) scale(1.25); transform:rotate(0deg) scale(1.25); transform-origin: 50% 50%; opacity:0.2;}
+25% {left: -5%; top: 10%; -webkit-transform:rotate(78deg) scale(1); transform:rotate(78deg) scale(1); transform-origin: 50% 50%; opacity:1;}
+50% {left: 25%; top: 2%; -webkit-transform:rotate(2deg) scale(0.25);  transform:rotate(2deg) scale(0.25);transform-origin: 50% 50%; opacity:0.3;}
+75% {left: -12%; top: 40%; -webkit-transform:rotate(178deg) scale(0.80); transform:rotate(178deg) scale(0.80); transform-origin: 50% 50%; opacity:0.6;}
+100% {left: 12%; top: 0%; -webkit-transform:rotate(360deg) scale(1.25); transform:rotate(360deg) scale(1.25);transform-origin: 50% 50%; opacity:0.44;}
+}
+ @keyframes perles02 {
+0% {left: 12%; top: 0%; -webkit-transform:rotate(0deg) scale(1.25); transform:rotate(0deg) scale(1.25); transform-origin: 50% 50%; opacity:0.2;}
+25% {left: -5%; top: 10%; -webkit-transform:rotate(78deg) scale(1); transform:rotate(78deg) scale(1); transform-origin: 50% 50%; opacity:1;}
+50% {left: 25%; top: 2%; -webkit-transform:rotate(2deg) scale(0.25);  transform:rotate(2deg) scale(0.25);transform-origin: 50% 50%; opacity:0.3;}
+75% {left: -12%; top: 40%; -webkit-transform:rotate(178deg) scale(0.80); transform:rotate(178deg) scale(0.80); transform-origin: 50% 50%; opacity:0.6;}
+100% {left: 12%; top: 0%; -webkit-transform:rotate(360deg) scale(1.25); transform:rotate(360deg) scale(1.25);transform-origin: 50% 50%; opacity:0.44;}
+}
+
+#plantes01 {
+    background-image: url("../resources/chapter1/img/b/plantes01.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 60%;
+    left: 22%;
+    position: absolute;
+    top: 6%;
+    width: 46%;	
+	-webkit-animation: plantes01 2s linear infinite;
+	-moz-animation: plantes01 2s linear infinite;
+	animation: plantes01 2s linear infinite;
+}
+@-webkit-keyframes plantes01 {
+0% {-webkit-transform:rotate(0deg) scale(1.25); transform:rotate(0deg) scale(1.25); transform-origin: 50% 50%; opacity:0.2;}
+25% {-webkit-transform:rotate(78deg) scale(1); transform:rotate(78deg) scale(1); transform-origin: 50% 50%; opacity:1;}
+50% {-webkit-transform:rotate(2deg) scale(0.25);  transform:rotate(2deg) scale(0.25);transform-origin: 50% 50%; opacity:0.3;}
+75% {-webkit-transform:rotate(178deg) scale(0.80); transform:rotate(178deg) scale(0.80); transform-origin: 50% 50%; opacity:0.6;}
+100% {-webkit-transform:rotate(360deg) scale(1.25); transform:rotate(360deg) scale(1.25);transform-origin: 50% 50%; opacity:0.44;}
+}
+ @-moz-keyframes plantes01 {
+0% {-webkit-transform:rotate(0deg) scale(1.25); transform:rotate(0deg) scale(1.25); transform-origin: 50% 50%; opacity:0.2;}
+25% {-webkit-transform:rotate(78deg) scale(1); transform:rotate(78deg) scale(1); transform-origin: 50% 50%; opacity:1;}
+50% {-webkit-transform:rotate(2deg) scale(0.25);  transform:rotate(2deg) scale(0.25);transform-origin: 50% 50%; opacity:0.3;}
+75% {-webkit-transform:rotate(178deg) scale(0.80); transform:rotate(178deg) scale(0.80); transform-origin: 50% 50%; opacity:0.6;}
+100% {-webkit-transform:rotate(360deg) scale(1.25); transform:rotate(360deg) scale(1.25);transform-origin: 50% 50%; opacity:0.44;}
+}
+ @keyframes plantes01 {
+0% {-webkit-transform:rotate(0deg) scale(1.25); transform:rotate(0deg) scale(1.25); transform-origin: 50% 50%; opacity:0.2;}
+25% {-webkit-transform:rotate(78deg) scale(1); transform:rotate(78deg) scale(1); transform-origin: 50% 50%; opacity:1;}
+50% {-webkit-transform:rotate(2deg) scale(0.25);  transform:rotate(2deg) scale(0.25);transform-origin: 50% 50%; opacity:0.3;}
+75% {-webkit-transform:rotate(178deg) scale(0.80); transform:rotate(178deg) scale(0.80); transform-origin: 50% 50%; opacity:0.6;}
+100% {-webkit-transform:rotate(360deg) scale(1.25); transform:rotate(360deg) scale(1.25);transform-origin: 50% 50%; opacity:0.44;}
+}
+
+#plantes01bis {
+    background-image: url("../resources/chapter1/img/b/plantes01.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 60%;
+    left: 42%;
+    position: absolute;
+    top: 27%;
+    width: 46%;	
+	-webkit-animation: plantes01bis 3s linear infinite;
+	-moz-animation: plantes01bis 3s linear infinite;
+	animation: plantes01bis 3s linear infinite;
+}
+@-webkit-keyframes plantes01bis {
+0% {-webkit-transform:rotate(0deg) scale(1.25); transform:rotate(0deg) scale(1.25); transform-origin: 50% 50%; opacity:0.2;}
+25% {-webkit-transform:rotate(78deg) scale(1); transform:rotate(78deg) scale(1); transform-origin: 50% 50%; opacity:1;}
+50% {-webkit-transform:rotate(2deg) scale(0.25);  transform:rotate(2deg) scale(0.25);transform-origin: 50% 50%; opacity:0.3;}
+75% {-webkit-transform:rotate(178deg) scale(0.80); transform:rotate(178deg) scale(0.80); transform-origin: 50% 50%; opacity:0.6;}
+100% {-webkit-transform:rotate(360deg) scale(1.25); transform:rotate(360deg) scale(1.25);transform-origin: 50% 50%; opacity:0.44;}
+}
+ @-moz-keyframes plantes01bis {
+0% {-webkit-transform:rotate(0deg) scale(1.25); transform:rotate(0deg) scale(1.25); transform-origin: 50% 50%; opacity:0.2;}
+25% {-webkit-transform:rotate(78deg) scale(1); transform:rotate(78deg) scale(1); transform-origin: 50% 50%; opacity:1;}
+50% {-webkit-transform:rotate(2deg) scale(0.25);  transform:rotate(2deg) scale(0.25);transform-origin: 50% 50%; opacity:0.3;}
+75% {-webkit-transform:rotate(178deg) scale(0.80); transform:rotate(178deg) scale(0.80); transform-origin: 50% 50%; opacity:0.6;}
+100% {-webkit-transform:rotate(360deg) scale(1.25); transform:rotate(360deg) scale(1.25);transform-origin: 50% 50%; opacity:0.44;}
+}
+ @keyframes plantes01bis {
+0% {-webkit-transform:rotate(0deg) scale(1.25); transform:rotate(0deg) scale(1.25); transform-origin: 50% 50%; opacity:0.2;}
+25% {-webkit-transform:rotate(78deg) scale(1); transform:rotate(78deg) scale(1); transform-origin: 50% 50%; opacity:1;}
+50% {-webkit-transform:rotate(2deg) scale(0.25);  transform:rotate(2deg) scale(0.25);transform-origin: 50% 50%; opacity:0.3;}
+75% {-webkit-transform:rotate(178deg) scale(0.80); transform:rotate(178deg) scale(0.80); transform-origin: 50% 50%; opacity:0.6;}
+100% {-webkit-transform:rotate(360deg) scale(1.25); transform:rotate(360deg) scale(1.25);transform-origin: 50% 50%; opacity:0.44;}
+}
+
+#plantes02 {
+    background-image: url("../resources/chapter1/img/b/plantes02.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 9%;
+    left: 46%;
+    position: absolute;
+    top: 46%;
+    width: 7%;	
+	-webkit-animation: plantes02 4s linear infinite;
+	-moz-animation: plantes02 4s linear infinite;
+	animation: plantes02 4s linear infinite;
+}
+@-webkit-keyframes plantes02 {
+0% {-webkit-transform:rotate(0deg) scale(1.25); transform:rotate(0deg) scale(1.25); transform-origin: 50% 50%; opacity:0.2;}
+25% {-webkit-transform:rotate(78deg) scale(1); transform:rotate(78deg) scale(1); transform-origin: 50% 50%; opacity:1;}
+50% {-webkit-transform:rotate(2deg) scale(0.25);  transform:rotate(2deg) scale(0.25);transform-origin: 50% 50%; opacity:0.3;}
+75% {-webkit-transform:rotate(178deg) scale(0.80); transform:rotate(178deg) scale(0.80); transform-origin: 50% 50%; opacity:0.6;}
+100% {-webkit-transform:rotate(360deg) scale(1.25); transform:rotate(360deg) scale(1.25);transform-origin: 50% 50%; opacity:0.44;}
+}
+ @-moz-keyframes plantes02 {
+0% {-webkit-transform:rotate(0deg) scale(1.25); transform:rotate(0deg) scale(1.25); transform-origin: 50% 50%; opacity:0.2;}
+25% {-webkit-transform:rotate(78deg) scale(1); transform:rotate(78deg) scale(1); transform-origin: 50% 50%; opacity:1;}
+50% {-webkit-transform:rotate(2deg) scale(0.25);  transform:rotate(2deg) scale(0.25);transform-origin: 50% 50%; opacity:0.3;}
+75% {-webkit-transform:rotate(178deg) scale(0.80); transform:rotate(178deg) scale(0.80); transform-origin: 50% 50%; opacity:0.6;}
+100% {-webkit-transform:rotate(360deg) scale(1.25); transform:rotate(360deg) scale(1.25);transform-origin: 50% 50%; opacity:0.44;}
+}
+ @keyframes plantes02 {
+0% {-webkit-transform:rotate(0deg) scale(1.25); transform:rotate(0deg) scale(1.25); transform-origin: 50% 50%; opacity:0.2;}
+25% {-webkit-transform:rotate(78deg) scale(1); transform:rotate(78deg) scale(1); transform-origin: 50% 50%; opacity:1;}
+50% {-webkit-transform:rotate(2deg) scale(0.25);  transform:rotate(2deg) scale(0.25);transform-origin: 50% 50%; opacity:0.3;}
+75% {-webkit-transform:rotate(178deg) scale(0.80); transform:rotate(178deg) scale(0.80); transform-origin: 50% 50%; opacity:0.6;}
+100% {-webkit-transform:rotate(360deg) scale(1.25); transform:rotate(360deg) scale(1.25);transform-origin: 50% 50%; opacity:0.44;}
+}
+
+#spirale {
+    background-image: url("../resources/chapter1/img/b/spirale.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 58%;
+    left: 27%;
+    opacity: 0.3;
+    position: absolute;
+    top: 23%;
+    width: 44%;	
+	-webkit-animation: spirale 6s linear infinite;
+	-moz-animation: spirale 6s linear infinite;
+	animation: spirale 6s linear infinite;
+}
+@-webkit-keyframes spirale {
+0% {-webkit-transform:rotate(0deg) scale(1.25); transform:rotate(0deg) scale(1.25); transform-origin: 50% 50%; opacity:0.2;}
+25% {-webkit-transform:rotate(78deg) scale(1); transform:rotate(78deg) scale(1); transform-origin: 50% 50%; opacity:1;}
+50% {-webkit-transform:rotate(2deg) scale(0.25);  transform:rotate(2deg) scale(0.25);transform-origin: 50% 50%; opacity:0.3;}
+75% {-webkit-transform:rotate(178deg) scale(0.80); transform:rotate(178deg) scale(0.80); transform-origin: 50% 50%; opacity:0.6;}
+100% {-webkit-transform:rotate(360deg) scale(1.25); transform:rotate(360deg) scale(1.25);transform-origin: 50% 50%; opacity:0.44;}
+}
+ @-moz-keyframes spirale {
+0% {-webkit-transform:rotate(0deg) scale(1.25); transform:rotate(0deg) scale(1.25); transform-origin: 50% 50%; opacity:0.2;}
+25% {-webkit-transform:rotate(78deg) scale(1); transform:rotate(78deg) scale(1); transform-origin: 50% 50%; opacity:1;}
+50% {-webkit-transform:rotate(2deg) scale(0.25);  transform:rotate(2deg) scale(0.25);transform-origin: 50% 50%; opacity:0.3;}
+75% {-webkit-transform:rotate(178deg) scale(0.80); transform:rotate(178deg) scale(0.80); transform-origin: 50% 50%; opacity:0.6;}
+100% {-webkit-transform:rotate(360deg) scale(1.25); transform:rotate(360deg) scale(1.25);transform-origin: 50% 50%; opacity:0.44;}
+}
+ @keyframes spirale {
+0% {-webkit-transform:rotate(0deg) scale(1.25); transform:rotate(0deg) scale(1.25); transform-origin: 50% 50%; opacity:0.2;}
+25% {-webkit-transform:rotate(78deg) scale(1); transform:rotate(78deg) scale(1); transform-origin: 50% 50%; opacity:1;}
+50% {-webkit-transform:rotate(2deg) scale(0.25);  transform:rotate(2deg) scale(0.25);transform-origin: 50% 50%; opacity:0.3;}
+75% {-webkit-transform:rotate(178deg) scale(0.80); transform:rotate(178deg) scale(0.80); transform-origin: 50% 50%; opacity:0.6;}
+100% {-webkit-transform:rotate(360deg) scale(1.25); transform:rotate(360deg) scale(1.25);transform-origin: 50% 50%; opacity:0.44;}
+}
+
+/*page3*/
+
+#ventre {
+    background-image: url("../resources/chapter1/img/c/ventre.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 24%;
+    left: 42%;
+    position: absolute;
+    top: 82%;
+    width: 18%;
+	-webkit-animation: ventre 6s linear infinite;
+	-moz-animation: ventre 6s linear infinite;
+	animation: ventre 6s linear infinite;
+}
+@-webkit-keyframes ventre {
+0% {-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+100% {-webkit-transform:rotate(360deg);transform:rotate(360deg);}
+}
+ @-moz-keyframes ventre {
+0% {-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+100% {-webkit-transform:rotate(360deg);transform:rotate(360deg);}
+}
+ @keyframes ventre {
+0% {-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+100% {-webkit-transform:rotate(360deg);transform:rotate(360deg);}
+}
+
+/*page4*/
+
+#bebe {
+     background-image: url("../resources/chapter1/img/d/bebe.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 92%;
+  left: 19.2%;
+  position: absolute;
+  top: 3.7%;
+  width: 60%;
+  -webkit-animation: bebe 15s linear infinite;
+}
+@-webkit-keyframes bebe {
+0% {-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+100% {-webkit-transform:rotate(360deg);transform:rotate(360deg);}
+}
+ @-moz-keyframes bebe {
+0% {-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+100% {-webkit-transform:rotate(360deg);transform:rotate(360deg);}
+}
+ @keyframes bebe {
+0% {-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+100% {-webkit-transform:rotate(360deg);transform:rotate(360deg);}
+}
+
+#perles {
+    background-image: url("../resources/chapter1/img/d/perles.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 92%;
+  left: 15.8%;
+  position: absolute;
+  top: 4%;
+  width: 68.6%;
+  -webkit-animation: perlesb 30s linear infinite;
+
+}
+}
+@-webkit-keyframes perlesb {
+0% {-webkit-transform:rotate(0deg);transform:rotate(0deg); transform-origin:center; -webkit-transform-origin:center;}
+100% {-webkit-transform:rotate(-360deg);transform:rotate(-360deg); transform-origin:center; -webkit-transform-origin:center;}
+}
+ @-moz-keyframes perlesb {
+0% {-webkit-transform:rotate(0deg);transform:rotate(0deg); transform-origin:center; -webkit-transform-origin:center;}
+100% {-webkit-transform:rotate(-360deg);transform:rotate(-360deg); transform-origin:center; -webkit-transform-origin:center;}
+}
+ @keyframes perlesb {
+0% {-webkit-transform:rotate(0deg);transform:rotate(0deg); transform-origin:center; -webkit-transform-origin:center;}
+100% {-webkit-transform:rotate(-360deg);transform:rotate(-360deg); transform-origin:center; -webkit-transform-origin:center;}
+}
+
+/*page5*/
+
+#lunebis {
+    background-image: url("../resources/chapter1/img/a/lune.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 30%;
+    position: absolute;
+    top: 35%;
+    width: 3%;	
+	-webkit-animation: lunebis 3s linear infinite alternate;
+	-moz-animation: lunebis 3s linear infinite alternate;
+	animation: lunebis 3s linear infinite alternate;
+}
+@-webkit-keyframes lunebis {
+0% {-webkit-transform:rotate(0deg);transform:rotate(0deg); opacity:0.5}
+25% {opacity:1}
+50% {-webkit-transform:rotate(0deg);transform:rotate(0deg);  opacity:0.5}
+75% {opacity:1}
+100% {-webkit-transform:rotate(-10deg);transform:rotate(-10deg);  opacity:1}
+}
+ @-moz-keyframes lunebis {
+0% {-webkit-transform:rotate(0deg);transform:rotate(0deg); opacity:0.5}
+25% {opacity:1}
+50% {-webkit-transform:rotate(0deg);transform:rotate(0deg);  opacity:0.5}
+75% {opacity:1}
+100% {-webkit-transform:rotate(-10deg);transform:rotate(-10deg);  opacity:1}
+}
+ @keyframes lunebis {
+0% {-webkit-transform:rotate(0deg);transform:rotate(0deg); opacity:0.5}
+25% {opacity:1}
+50% {-webkit-transform:rotate(0deg);transform:rotate(0deg);  opacity:0.5}
+75% {opacity:1}
+100% {-webkit-transform:rotate(-10deg);transform:rotate(-10deg);  opacity:1}
+}
+
+#moustache {
+    background-image: url("../resources/chapter1/img/e/moustache.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 37%;
+    left: 18.5%;
+    position: absolute;
+    top: 11%;
+    width: 5%;	
+	-webkit-animation: moustache 3s linear infinite alternate;
+	-moz-animation: moustache 3s linear infinite alternate;
+	animation: moustache 3s linear infinite alternate;
+}
+@-webkit-keyframes moustache {
+0% {-webkit-transform:rotate(0deg);transform:rotate(0deg); top:11%}
+100% {-webkit-transform:rotate(2deg);transform:rotate(2deg); top:11.5%}
+}
+ @-moz-keyframes moustache {
+0% {-webkit-transform:rotate(0deg);transform:rotate(0deg); top:11%}
+100% {-webkit-transform:rotate(2deg);transform:rotate(2deg); top:11.5%}
+}
+ @keyframes moustache {
+0% {-webkit-transform:rotate(0deg);transform:rotate(0deg); top:11%}
+100% {-webkit-transform:rotate(2deg);transform:rotate(2deg); top:11.5%}
+}
+
+#yeuxchronos {
+    background-image: url("../resources/chapter1/img/e/yeuxchronos.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 2.5%;
+    left: 19.68%;
+    position: absolute;
+    bottom: 69.3%;    
+	 width: 2.2%;	
+	-webkit-animation: 3s linear 0s none infinite yeuxchronos;
+	-moz-animation: 3s linear 0s none infinite yeuxchronos;
+    animation: 3s linear 0s none infinite yeuxchronos;
+}
+@-webkit-keyframes yeuxchronos {
+0% {height:2.5%;}
+28% {height:2.5%;}
+30% {height:0%;}
+35% {height:2.5%;}
+100% {height:2.5%;}
+}
+ @-moz-keyframes yeuxchronos {
+0% {height:2.5%;}
+28% {height:2.5%;}
+30% {height:0%;}
+35% {height:2.5%;}
+100% {height:2.5%;}
+}
+ @keyframes yeuxchronos {
+0% {height:2.5%;}
+28% {height:2.5%;}
+30% {height:0%;}
+35% {height:2.5%;}
+100% {height:2.5%;}
+}
+
+#engrenage01 {
+    background-image: url("../resources/chapter1/img/e/engrenage01.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 4%;
+    left: 21.7%;
+    position: absolute;
+    top: 15%;
+    width: 0.4%;	
+	-webkit-animation: engrenage01 30s linear infinite;
+	-moz-animation: engrenage01 30s linear infinite;
+	animation: engrenage01 30s linear infinite;
+}
+@-webkit-keyframes engrenage01 {
+0% {-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+100% {-webkit-transform:rotate(-360deg);transform:rotate(-360deg);}
+}
+ @-moz-keyframes engrenage01 {
+0% {-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+100% {-webkit-transform:rotate(-360deg);transform:rotate(-360deg);}
+}
+ @keyframes engrenage01 {
+0% {-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+100% {-webkit-transform:rotate(-360deg);transform:rotate(-360deg);}
+}
+
+#engrenage02 {
+    background-image: url("../resources/chapter1/img/e/engrenage01.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 5%;
+    left: 20.72%;
+    position: absolute;
+    top: 15%;
+    width: 0.5%;	
+	-webkit-animation: engrenage02 30s linear infinite;
+	-moz-animation: engrenage02 30s linear infinite;
+	animation: engrenage02 30s linear infinite;
+}
+@-webkit-keyframes engrenage02 {
+0% {-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+100% {-webkit-transform:rotate(360deg);transform:rotate(360deg);}
+}
+ @-moz-keyframes engrenage02 {
+0% {-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+100% {-webkit-transform:rotate(360deg);transform:rotate(360deg);}
+}
+ @keyframes engrenage02 {
+0% {-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+100% {-webkit-transform:rotate(360deg);transform:rotate(360deg);}
+}
+
+#engrenage03 {
+    background-image: url("../resources/chapter1/img/e/engrenage01.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 3%;
+    left: 22%;
+    position: absolute;
+    top: 13%;
+    width: 0.3%;	
+	-webkit-animation: engrenage03 30s linear infinite;
+	-moz-animation: engrenage03 30s linear infinite;
+	animation: engrenage03 30s linear infinite;
+}
+@-webkit-keyframes engrenage03 {
+0% {-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+100% {-webkit-transform:rotate(-360deg);transform:rotate(-360deg);}
+}
+ @-moz-keyframes engrenage03 {
+0% {-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+100% {-webkit-transform:rotate(-360deg);transform:rotate(-360deg);}
+}
+ @keyframes engrenage03 {
+0% {-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+100% {-webkit-transform:rotate(-360deg);transform:rotate(-360deg);}
+}
+
+#engrenage04 {
+	background-image: url("../resources/chapter1/img/e/engrenage01.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 5%;
+    left: 16.15%;
+    position: absolute;
+    top: 59%;
+    width: 0.5%;	
+	-webkit-animation: engrenage04 30s linear infinite;
+	-moz-animation: engrenage04 30s linear infinite;
+	animation: engrenage04 30s linear infinite;
+}
+@-webkit-keyframes engrenage04 {
+0% {-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+100% {-webkit-transform:rotate(-360deg);transform:rotate(-360deg);}
+}
+ @-moz-keyframes engrenage04 {
+0% {-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+100% {-webkit-transform:rotate(-360deg);transform:rotate(-360deg);}
+}
+ @keyframes engrenage04 {
+0% {-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+100% {-webkit-transform:rotate(-360deg);transform:rotate(-360deg);}
+}
+
+/*page6*/
+
+#gouttesang01 {
+    background-image: url("../resources/chapter1/img/f/gouttesang01.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 12%;	
+	-webkit-animation: gouttesang01 1s 1slinear;
+	-moz-animation: gouttesang01 1s 1slinear;
+	animation: gouttesang01 1s 1slinear;
+}
+@-webkit-keyframes gouttesang01 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+ @-moz-keyframes gouttesang01 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+ @keyframes gouttesang01 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+#gouttesang02 {
+    background-image: url("../resources/chapter1/img/f/gouttesang02.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 12%;	
+	-webkit-animation: gouttesang02 1s 2slinear;
+	-moz-animation: gouttesang02 1s 2slinear;
+	animation: gouttesang02 1s 2s linear;
+}
+@-webkit-keyframes gouttesang02 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+ @-moz-keyframes gouttesang02 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+ @keyframes gouttesang02 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+#gouttesang03 {
+    background-image: url("../resources/chapter1/img/f/gouttesang03.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 12%;	
+	-webkit-animation: gouttesang03 1s 3s linear;
+	-moz-animation: gouttesang03 1s 3s linear;
+	animation: gouttesang03 1s 3s linear;
+}
+@-webkit-keyframes gouttesang03 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+ @-moz-keyframes gouttesang03 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+ @keyframes gouttesang03 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+#gouttesang04 {
+    background-image: url("../resources/chapter1/img/f/gouttesang04.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 12%;	
+	-webkit-animation: gouttesang04 1s 4s linear;
+	-moz-animation: gouttesang04 1s 4s linear;
+	animation: gouttesang04 1s 4s linear;
+}
+@-webkit-keyframes gouttesang04 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+ @-moz-keyframes gouttesang04 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+ @keyframes gouttesang04 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+#gouttesang05 {
+    background-image: url("../resources/chapter1/img/f/gouttesang05.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 12%;	
+	-webkit-animation: gouttesang05 1s 5s linear;
+	-moz-animation: gouttesang05 1s 5s linear;
+	animation: gouttesang05 1s 5s linear;
+}
+@-webkit-keyframes gouttesang05 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+ @-moz-keyframes gouttesang05 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+ @keyframes gouttesang05 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+#gouttesang06 {
+    background-image: url("../resources/chapter1/img/f/gouttesang06.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 12%;	
+	-webkit-animation: gouttesang06 1s 6s linear;
+	-moz-animation: gouttesang06 1s 6s linear;
+	animation: gouttesang06 1s 6s linear;
+}
+@-webkit-keyframes gouttesang06 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+ @-moz-keyframes gouttesang06 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+ @keyframes gouttesang06 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+#gouttesang07 {
+    background-image: url("../resources/chapter1/img/f/gouttesang07.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 12%;	
+	-webkit-animation: gouttesang07 1s 7s linear;
+	-moz-animation: gouttesang07 1s 7s linear;
+	animation: gouttesang07 1s 7s linear;
+}
+@-webkit-keyframes gouttesang07 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+ @-moz-keyframes gouttesang07 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+ @keyframes gouttesang07 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+#gouttesang08 {
+    background-image: url("../resources/chapter1/img/f/gouttesang08.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 12%;	
+	-webkit-animation: gouttesang08 1s 8s linear;
+	-moz-animation: gouttesang08 1s 8s linear;
+	animation: gouttesang08 1s 8s linear;
+}
+@-webkit-keyframes gouttesang08 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+ @-moz-keyframes gouttesang08 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+ @keyframes gouttesang08 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+#gouttesang09 {
+    background-image: url("../resources/chapter1/img/f/gouttesang09.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 12%;	
+	-webkit-animation: gouttesang09 1s 9s linear;
+	-moz-animation: gouttesang09 1s 9s linear;
+	animation: gouttesang09 1s 9s linear;
+}
+@-webkit-keyframes gouttesang09 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+ @-moz-keyframes gouttesang09 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+ @keyframes gouttesang09 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+#gouttesang10 {
+    background-image: url("../resources/chapter1/img/f/gouttesang10.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 12%;	
+	-webkit-animation: gouttesang10 1s 10s linear;
+	-moz-animation: gouttesang10 1s 10s linear;
+	animation: gouttesang10 1s 10s linear;
+}
+@-webkit-keyframes gouttesang10 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+ @-moz-keyframes gouttesang10 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+ @keyframes gouttesang10 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+#gouttesang11 {
+    background-image: url("../resources/chapter1/img/f/gouttesang11.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 12%;	
+	-webkit-animation: gouttesang11 1s 11s linear;
+	-moz-animation: gouttesang11 1s 11s linear;
+	animation: gouttesang11 1s 11s linear;
+}
+@-webkit-keyframes gouttesang11 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+ @-moz-keyframes gouttesang11 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+ @keyframes gouttesang11 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+#gouttesang12 {
+    background-image: url("../resources/chapter1/img/f/gouttesang12.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 12%;	
+	-webkit-animation: gouttesang12 1s 12s linear;
+	-moz-animation: gouttesang12 1s 12s linear;
+	animation: gouttesang12 1s 12s linear;
+}
+@-webkit-keyframes gouttesang12 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+ @-moz-keyframes gouttesang12 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+ @keyframes gouttesang12 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+#gouttesang13 {
+    background-image: url("../resources/chapter1/img/f/gouttesang13.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 12%;	
+	-webkit-animation: gouttesang13 1s 13s linear;
+	-moz-animation: gouttesang13 1s 13s linear;
+	animation: gouttesang13 1s 13s linear;
+}
+@-webkit-keyframes gouttesang13 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+ @-moz-keyframes gouttesang13 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+ @keyframes gouttesang13 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+#gouttesang14 {
+    background-image: url("../resources/chapter1/img/f/gouttesang14.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 12%;	
+	-webkit-animation: gouttesang14 1s 14s linear;
+	-moz-animation: gouttesang14 1s 14s linear;
+	animation: gouttesang14 1s 14s linear;
+}
+@-webkit-keyframes gouttesang14 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+ @-moz-keyframes gouttesang14 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+ @keyframes gouttesang14 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+#gouttesang15 {
+    background-image: url("../resources/chapter1/img/f/gouttesang15.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 12%;	
+	-webkit-animation: gouttesang15 1s 15s linear;
+	-moz-animation: gouttesang15 1s 15s linear;
+	animation: gouttesang15 1s 15s linear;
+}
+@-webkit-keyframes gouttesang15 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+ @-moz-keyframes gouttesang15 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+ @keyframes gouttesang15 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+#gouttesang16 {
+    background-image: url("../resources/chapter1/img/f/gouttesang16.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 12%;	
+	-webkit-animation: gouttesang16 1s 16s linear;
+	-moz-animation: gouttesang16 1s 16s linear;
+	animation: gouttesang16 1s 16s linear;
+}
+@-webkit-keyframes gouttesang16 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+ @-moz-keyframes gouttesang16 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+ @keyframes gouttesang16 {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+
+/*page7*/
+
+#mer {
+    background-image: url("../resources/chapter1/img/g/mer.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    width: 12.5%;
+	-webkit-animation: mer 3s linear infinite alternate;
+	-moz-animation: mer 3s linear infinite alternate;
+	animation: mer 3s linear infinite alternate;
+}
+@-webkit-keyframes mer {
+0% {height: 50%;}
+100% {height: 53%;}
+}
+ @-moz-keyframes mer {
+0% {height: 50%;}
+100% {height: 53%;}
+}
+ @keyframes mer {
+0% {height: 50%;}
+100% {height: 53%;}
+}
+
+#plantescentre {
+    background-image: url("../resources/chapter1/img/g/plantescentre.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 29%;
+    left: 41.3%;
+    position: absolute;
+    top: 61%;
+    width: 5%;
+	-webkit-animation: plantescentre 10s;
+	-moz-animation: plantescentre 10s;
+	animation: plantescentre 10s;
+}
+@-webkit-keyframes plantescentre {
+0% {top:110%}
+100% {top:61%}
+}
+ @-moz-keyframes plantescentre {
+0% {top:110%}
+100% {top:61%}
+}
+ @keyframes plantescentre {
+0% {top:110%}
+100% {top:61%}
+}
+
+#aphrodite {
+    background-image: url("../resources/chapter1/img/g/aphrodite.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    left: 37.25%;
+    position: absolute;
+    top: 0;
+    width: 12.78%;	
+	-webkit-animation: aphrodite 15s;
+	-moz-animation: aphrodite 15s;
+	animation: aphrodite 15s;
+}
+@-webkit-keyframes aphrodite {
+0% {top:110%}
+100% {top:0%}
+}
+ @-moz-keyframes aphrodite {
+0% {top:110%}
+100% {top:0%}
+}
+ @keyframes aphrodite {
+0% {top:110%}
+100% {top:0%}
+}
+
+
+#luneter {
+    background-image: url("../resources/chapter1/img/h/luneinverse.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 30%;
+    position: absolute;
+    top: 35%;
+    width: 3%;	
+	-webkit-animation: luneter 3s linear infinite alternate;
+	-moz-animation: luneter 3s linear infinite alternate;
+	animation: luneter 3s linear infinite alternate;
+}
+@-webkit-keyframes luneter {
+0% {-webkit-transform:rotate(0deg); opacity:0.5}
+25% {opacity:1}
+50% {-webkit-transform:rotate(0deg);  opacity:0.5}
+75% {opacity:1}
+100% {-webkit-transform:rotate(-10deg);  opacity:1}
+}
+ @-moz-keyframes luneter {
+0% {-webkit-transform:rotate(0deg); opacity:0.5}
+25% {opacity:1}
+50% {-webkit-transform:rotate(0deg);  opacity:0.5}
+75% {opacity:1}
+100% {-webkit-transform:rotate(-10deg);  opacity:1}
+}
+ @keyframes luneter {
+0% {-webkit-transform:rotate(0deg); opacity:0.5}
+25% {opacity:1}
+50% {-webkit-transform:rotate(0deg);  opacity:0.5}
+75% {opacity:1}
+100% {-webkit-transform:rotate(-10deg);  opacity:1}
+}
+
+/*page8*/
+
+#eau {
+    background-image: url("../resources/chapter1/img/h/eau.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 50%;
+    position: absolute;
+    top: 33%;
+    width: 100%;
+	-webkit-animation: eau 3s linear infinite alternate;
+	-moz-animation: eau 3s linear infinite alternate;
+	animation: eau 3s linear infinite alternate;
+}
+@-webkit-keyframes eau {
+0% {height: 36%;}
+100% {height: 39%;}
+}
+ @-moz-keyframes eau {
+0% {height: 36%;}
+100% {height: 39%;}
+}
+ @keyframes eau {
+0% {height: 36%;}
+100% {height: 39%;}
+}
+
+#lunequatre {
+	-webkit-animation: lunequatre 3s linear infinite alternate;
+	-moz-animation: lunequatre 3s linear infinite alternate;
+    animation: 3s linear 0s alternate none infinite lunequatre;
+    background-image: url("../resources/chapter1/img/h/luneinverse.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 34%;
+    left: 89.5%;
+    position: absolute;
+    top: -9%;
+    width: 23%;
+	}
+@-webkit-keyframes lunequatre {
+0% {-webkit-transform:rotate(0deg); opacity:0.5}
+25% {opacity:1}
+50% {-webkit-transform:rotate(0deg);  opacity:0.5}
+75% {opacity:1}
+100% {-webkit-transform:rotate(-10deg);  opacity:1}
+}
+ @-moz-keyframes lunequatre {
+0% {-webkit-transform:rotate(0deg); opacity:0.5}
+25% {opacity:1}
+50% {-webkit-transform:rotate(0deg);  opacity:0.5}
+75% {opacity:1}
+100% {-webkit-transform:rotate(-10deg);  opacity:1}
+}
+ @keyframes lunequatre {
+0% {-webkit-transform:rotate(0deg); opacity:0.5}
+25% {opacity:1}
+50% {-webkit-transform:rotate(0deg);  opacity:0.5}
+75% {opacity:1}
+100% {-webkit-transform:rotate(-30deg);  opacity:0.5}
+}
+.chapitre1 {
+  width: 6120px;
+  height: 768px;
+}
+.chapitre2 {
+  width: 8192px;
+  height: 768px;
+}
+.pause {
+	  -webkit-animation-play-state:paused!important;
+}
+.play {
+	animation-play-state:running!important;
+}
+.bulle3a {
+		top: 68%;
+    left: 16%;
+	
+	-webkit-animation: bulle3a1 40s ease-in;
+	-moz-animation: bulle3a1 40s ease-in;
+	animation: bulle3a1 40s ease-in;
+	
+}
+@-webkit-keyframes bulle3a1 {
+0% {
+opacity:0;
+}
+40% {
+opacity:0;
+}
+ 45% {
+ opacity:1;
+}
+ 80% {
+ opacity:1;
+}
+ 85% {
+ opacity:0;
+}
+}
+ @-moz-keyframes bulle3a1 {
+0% {
+opacity:0;
+}
+40% {
+opacity:0;
+}
+ 45% {
+ opacity:1;
+}
+ 80% {
+ opacity:1;
+}
+ 85% {
+ opacity:0;
+}
+}
+ @keyframes bulle3a1 {
+0% {
+opacity:0;
+}
+40% {
+opacity:0;
+}
+ 45% {
+ opacity:1;
+}
+ 80% {
+ opacity:1;
+}
+ 85% {
+ opacity:0;
+}
+}
+
+
+.bulle5a {
+		    top: 20%;
+    left: 44%;
+	
+	-webkit-animation: bulle5a1 40s ease-in;
+	-moz-animation: bulle5a1 40s ease-in;
+	animation: bulle5a1 40s ease-in;
+	
+}
+@-webkit-keyframes bulle5a1 {
+0% {
+opacity:0;
+}
+40% {
+opacity:0;
+}
+ 45% {
+ opacity:1;
+}
+ 80% {
+ opacity:1;
+}
+ 85% {
+ opacity:0;
+}
+}
+ @-moz-keyframes bulle5a1 {
+0% {
+opacity:0;
+}
+40% {
+opacity:0;
+}
+ 45% {
+ opacity:1;
+}
+ 80% {
+ opacity:1;
+}
+ 85% {
+ opacity:0;
+}
+}
+ @keyframes bulle5a1 {
+0% {
+opacity:0;
+}
+40% {
+opacity:0;
+}
+ 45% {
+ opacity:1;
+}
+ 80% {
+ opacity:1;
+}
+ 85% {
+ opacity:0;
+}
+}
+.bulle8a {
+		    top: 60%;
+    left: 36%;
+	
+	-webkit-animation: bulle8a1 40s ease-in;
+	-moz-animation: bulle8a1 40s ease-in;
+	animation: bulle8a1 40s ease-in;
+	
+}
+
+.bulle8b {
+	top: 50%;
+    left: 60%;
+	
+	-webkit-animation: bulle8b1 40s ease-in;
+	-moz-animation: bulle8b1 40s ease-in;
+	animation: bulle8b1 40s ease-in;
+	
+}
+.bulle8c {
+	top: 2%;
+    left: 75%;
+	
+	-webkit-animation: bulle8c1 40s ease-in;
+	-moz-animation: bulle8c1 40s ease-in;
+	animation: bulle8c1 40s ease-in;
+	
+}
+
+@-webkit-keyframes bulle8a1 {
+0% {
+opacity:0;
+}
+20% {
+opacity:0;
+}
+ 25% {
+ opacity:1;
+}
+ 60% {
+ opacity:1;
+}
+ 65% {
+ opacity:0;
+}
+}
+ @-moz-keyframes bulle8a1 {
+0% {
+opacity:0;
+}
+20% {
+opacity:0;
+}
+ 25% {
+ opacity:1;
+}
+ 60% {
+ opacity:1;
+}
+ 65% {
+ opacity:0;
+}
+}
+ @keyframes bulle8a1 {
+0% {
+opacity:0;
+}
+20% {
+opacity:0;
+}
+ 25% {
+ opacity:1;
+}
+ 60% {
+ opacity:1;
+}
+ 65% {
+ opacity:0;
+}
+}
+
+@-webkit-keyframes bulle8b1 {
+0% {
+opacity:0;
+}
+30% {
+opacity:0;
+}
+ 35% {
+ opacity:1;
+}
+ 70% {
+ opacity:1;
+}
+ 75% {
+ opacity:0;
+}
+}
+ @-moz-keyframes bulle8b1 {
+0% {
+opacity:0;
+}
+30% {
+opacity:0;
+}
+ 35% {
+ opacity:1;
+}
+ 70% {
+ opacity:1;
+}
+ 75% {
+ opacity:0;
+}
+}
+ @keyframes bulle8b1 {
+0% {
+opacity:0;
+}
+30% {
+opacity:0;
+}
+ 35% {
+ opacity:1;
+}
+ 70% {
+ opacity:1;
+}
+ 75% {
+ opacity:0;
+}
+}
+
+@-webkit-keyframes bulle8c1 {
+0% {
+opacity:0;
+}
+50% {
+opacity:0;
+}
+ 55% {
+ opacity:1;
+}
+ 90% {
+ opacity:1;
+}
+ 95% {
+ opacity:0;
+}
+}
+ @-moz-keyframes bulle8c1 {
+0% {
+opacity:0;
+}
+50% {
+opacity:0;
+}
+ 55% {
+ opacity:1;
+}
+ 90% {
+ opacity:1;
+}
+ 95% {
+ opacity:0;
+}
+}
+ @keyframes bulle8c1 {
+0% {
+opacity:0;
+}
+50% {
+opacity:0;
+}
+ 55% {
+ opacity:1;
+}
+ 90% {
+ opacity:1;
+}
+ 95% {
+ opacity:0;
+}
+}

@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <title>Demo</title>
+  <link rel="stylesheet" href="../fr/css/idangerous.swiper.css">
+  <style>
+/* Demo Styles */
+
+@font-face {
+	font-family: "Lucida Grande";
+	src: url(../../fr/img/LucidaGrande.ttc);
+}
+@font-face {
+	font-family: "EccentricStd";
+	src: url(../../fr/img/EccentricStd.otf);
+}
+
+@font-face{
+	font-family: "Offside-Regular";
+	src: url(../../fr/img/Offside-Regular.ttf);
+}
+
+body {
+	margin: 0;
+	font-family: "Offside-Regular";
+	font-size: 13px;
+}
+.swiper-container {
+    color: #FFFFFF;
+    height: 668px;
+    left: 5%;
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    width: 90%;
+	}
+.white-slide {
+	background: #fff;
+}
+.swiper-slide {
+	margin-bottom: 0;
+	width: 100%;
+}
+.pagination {
+	position: absolute;
+	z-index: 100;
+	left: 10px;
+	bottom: 10px;
+}
+.swiper-pagination-switch {
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	border-radius: 8px;
+	background: #222;
+	margin-right: 5px;
+	opacity: 0.8;
+	border: 1px solid #fff;
+	cursor: pointer;
+}
+.swiper-visible-switch {
+	background: #aaa;
+}
+.swiper-active-switch {
+	background: #fff;
+}
+.tabs {
+    left: 10%;
+    position: absolute;
+    top: 5%;
+    width: 900px;}
+.tabs a {
+    background-color: #FFFFFF;
+    border-radius: 5px 5px 0 0;
+    display: block;
+    float: left;
+    font-family: offside-regular;
+    font-size: 16px;
+    line-height: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    opacity: 0.8;
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+	}
+.tabs a.active {
+}
+#background img.coinmalin {
+	z-index: -1;
+}
+.colonnetexte {
+	width: 25%;
+	position: absolute;
+	color: #000;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: left;
+	overflow-y: auto;
+	height: 100%;
+	z-index: 2;
+}
+.colonnetextefull {
+	width: 94%;
+	position: absolute;
+	color: #000;
+	padding-left: 3%;
+	padding-right: 3%;
+	text-align: left;
+	overflow-y: auto;
+	height: 100%;
+	z-index: 2;
+}
+.colonnetexte2 {
+	width: 25%;
+	position: absolute;
+	color: #000;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: left;
+	overflow-y: auto;
+	height: 100%;
+}
+.colonneslide {
+	width: 65%;
+	position: absolute;
+	left: 35%;
+}
+.bonus {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.bonus .swiper-wrapper {
+	width: 65%!important;
+}
+.bonus .swiper-wrapper .swiper-slide {
+	min-height: 100px!important;
+}
+.bonus .swiper-wrapper .swiper-slide img {
+	width: 100%;
+}
+h1 {
+	font-size: 18px;
+	text-align: center;
+}
+h2 {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+}
+      
+h6 {
+    font-size: 10px;
+    font-weight:300;
+    font-style: italic;
+}      
+.violet {
+    color: #800080;
+    font-family: "EccentricStd";
+    font-size: 26px;
+    font-weight: lighter;
+	letter-spacing: 0.05em;}
+	
+	
+.violet.active{
+	background-color:#800080;
+    color:#fff;
+	opacity:1;
+}
+
+.rose {
+    color:#F3C;
+    font-family: "EccentricStd";
+    font-size: 26px;
+    font-weight: lighter;
+	letter-spacing: 0.05em;}
+
+
+.rose.active{
+	background-color:#F3C;
+    color:#fff;
+	opacity:1;
+}
+
+.vert {
+    color:#3C9;
+    font-family: "EccentricStd";
+    font-size: 26px;
+    font-weight: lighter;
+	letter-spacing: 0.05em;}
+.vert.active{
+	background-color:#3C9;
+    color:#fff;
+	opacity:1;
+}
+
+.orange {
+    color:#F90;
+    font-family: "EccentricStd";
+    font-size: 26px;
+    font-weight: lighter;
+	letter-spacing: 0.05em;}
+.orange.active{
+	background-color:#F90;
+    color:#fff;
+	opacity:1;
+}
+
+.texteslide {
+	width: 30%;
+	padding-right: 3%;
+	float: left;
+}
+.imageslide {
+	width: 66%;
+	float: left;
+}
+.imageslide img {
+    border: 1px solid #000;
+    width: 100%;
+	margin-bottom:25px;
+	}
+.clear {
+	clear: both;
+}
+
+#wrapper {
+	  width: 1024px!important;
+  margin-left:auto!important;
+  margin-right:auto!important;
+  height: 768px!important;
+	
+}
+
+
+</style>
+  <link rel="stylesheet" type="text/css" href="../fr/css/style.css" />
+  </head>
+  <body>
+  
+<div id="wrapper">
+	<div id="retourAccueil"><a href="../index_en.html"><img src="../fr/img/home.png"/></a></div>
+
+	<div id="background" ><!-- ici seront chargés les background des pages --> 
+    <img id="page" src="../fr/resources/chapter7/img/1.jpg" class="coinmalin" /> </div>
+	<div class="tabs"> <a href="#" class="violet">Astronomy</a> <a href="#" class="rose" >History of Art</a> <a href="#" class="vert">Sciences</a> <a href="#" class="orange">Civilizations</a> </div>
+<!--------------------------------------------------------------------------->
+<div class="swiper-container swiper-parent" style="clear:both;">
+    <div class="swiper-wrapper">
+    <div class="swiper-slide white-slide">
+        <div class="bonus">
+        <div class="colonnetextefull">
+            <h1 class="violet"> Earth and Sky</h1>
+         
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="violet">The earth</h2>
+                <p>The earth, our planet, is not flat as was believed by most of the people before us. It is a sphere that revolves around the sun. Its diameter is more than 40,000 kilometers and two thirds of its surface is below water. She is roughly 4.6 billion years old.</p>
+                <h6>D.R.</h6>
+              </div>
+            <div class="imageslide"> <img src="../fr/bonus/a1.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="violet">The moon</h2>
+                <p>The moon revolves around the Earth in the same fashion that the sun revolves around the sun. Scientists think that she was born very long ago when another planet impacted earth and in doing so broke apart a chunk. She is illuminated by the reflection of the sun and it is for this reason that she changes shape nearly each day. </p>
+                <h6>D.R.</h6>
+              </div>
+            <div class="imageslide"> <img src="../fr/bonus/a2.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="violet">The other planets of the solar system</h2>
+                <p>The 8 other planets of the solar system bear names of Roman gods which are .. the same as the Greek gods! As such, the largest planet is called Jupiter, which is the translation for Zeus. Saturn, the ringed planet is the equivalent of Chronos. Neptune stands for Poseidon, Pluto to Hades and Venus to Aphrodite…</p>
+                <h6>D.R.</h6>
+              </div>
+            <div class="imageslide"> <img src="../fr/bonus/a3.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="violet">The Sun</h2>
+                <p>The sun is an immense ball of 1,300,000 kilometers in diameter. On its surface, the temperature is close to 6000 degree Celsius, but its core is even hotter at more than 16,000,000 degree Celsius. The sun is more than 5 billion years old. When, in another 5 billion years it finishes to combust, it will explode and the Earth will disappear with him.</p>
+                <h6>D.R.</h6>
+              </div>
+            <div class="imageslide"> <img src="../fr/bonus/a4.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="violet">The other Stars</h2>
+                <p>There are many other stars like the sun. Some are even larger, some much smaller. Today, scientists look for those likely to have in their orbits planets comparable to the Earth: perhaps life has developed there also, at many light years from us.</p>
+                <h6>D.R.</h6>
+              </div>
+            <div class="imageslide"> <img src="../fr/bonus/a5.jpg" > </div>
+          </div>
+          
+             <div class="clear">
+            <div class="texteslide">
+                <h2 class="violet">Galaxies</h2>
+                <p>Our Sun is one of two billion stars which together make up the “Milky Way”. But this galaxy is not alone: there exist millions of others in all kinds of shapes and sizes. Amongst all this immensity, our planet Earth, is but a small grain of dust!</p>
+                <h6>D.R.</h6>
+              </div>
+            <div class="imageslide"> <img src="../fr/bonus/a6.jpg" > </div>
+          </div>
+          </div>
+      </div>
+      </div>
+    <!--début du slide-->
+    <div class="swiper-slide white-slide">
+        <div class="bonus">
+        <div class="colonnetextefull">
+            <h1 class="rose">Venus / Aphrodite</h1>
+            <p> Venus is the Latin name of Aphrodite, the goddess of love which is born from the sea. As the perfect woman, she has been represented throughout humanity by artists of various sensibilities</p>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="rose">Prehistoric Venus – 22000</h2>
+                <p> This prehistoric Venus with large buttocks and imposing breasts is a representation of the goddess of fertility.</p>
+                <h6>D.R.</h6>
+              </div>
+            <div class="imageslide"> <img src="../fr/bonus/h1.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="rose">Venus de Milo</h2>
+                <p> The Venus of Milo is one of the most well known statues in the world. She is on exhibit at the Louvre Museum, in Paris, France. She was sculpted by an unknown artist in the 2nd century before Christ.</p>
+                <h6>D.R.</h6>
+              </div>
+            <div class="imageslide"> <img src="../fr/bonus/h2.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="rose">The mural of Venus</h2>
+                <p> This roman fresco, found in Pompeii, was made in the first century before Christ. Venus/Aphrodite is reclining as was done in the banquets of that time. </p>
+                <h6>D.R.</h6>
+              </div>
+            <div class="imageslide"> <img src="../fr/bonus/h3.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="rose">The Birth of Venus</h2>
+                <p> “The Birth of Venus” of Sandro Botticelli was painted in 1485 and is on exhibit at the Uffizi Gallery in Florence, Italy. At her left, Zephyr, one of the wind gods, accompanied by his wife is pushing her towards shore.  </p>
+                <h6>D.R.</h6>
+              </div>
+            <div class="imageslide"> <img src="../fr/bonus/h4.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="rose">The Birth of Venus</h2>
+                <p> In this canvas painted by Francois Boucher in 1750 by Francois Boucher, Venus seems reclining on the sea as one would be in a mattress. The cherubs who are playing in the back remind us of love and little angels.</p>
+                <h6>D.R.</h6>
+              </div>
+            <div class="imageslide"> <img src="../fr/bonus/h6.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="rose">The Birth of Venus</h2>
+                <p> It is a majestic Venus that is painted by Ingres in 1848. Cherubs at her feet reflect with their mirror the spectacle of her own beauty or hold close to her legs like admirers.</p>
+                <h6>D.R.</h6>
+              </div>
+            <div class="imageslide"> <img src="../fr/bonus/h8.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="rose">1925 - Dali</h2>
+                <p> This very mysterious Venus painted by Dali has her face hidden from the viewer, perhaps because such a perfect beauty cannot be presented?</p>
+                <h6>D.R./h6>
+              </div>
+            <div class="imageslide"> <img src="../fr/bonus/h9.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="rose">Cinema</h2>
+                <p> 
+It is the actress Uma Thurmann in 1988 who is cast for the role of Aprhodite in Terry Gilliam’s’ “the Adventures of the Baron Munchausen”.</p>
+                <h6>D.R.</h6>
+              </div>
+            <div class="imageslide"> <img src="../fr/bonus/h10.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="rose">Manga</h2>
+                <p> In the “knights of the zodiac” manga of Masami Kurumada first published in January 1986, Aphrodite has become a … man! That is to say, not much is left of the original story.</p>
+                <h6>D.R.</h6>
+              </div>
+            <div class="imageslide"> <img src="../fr/bonus/h11.jpg" > </div>
+          </div>
+            
+          
+          </div>
+      </div>
+      </div>
+    
+    <!--fin du slide--> 
+    <!--début du slide-->
+    <div class="swiper-slide white-slide">
+        <div class="bonus">
+        <div class="colonnetextefull">
+            <h1 class="vert">The steps to the creation of the Earth</h1>
+          
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="vert">The Big Bang</h2>
+                <p> Currently scientists believe that our universe was born with the Big Bang: an immense explosion that happened 14 billion years ago. Very rapidly thereafter, matter quickly spread and created the first stars and the first galaxies.</p>
+               
+              </div>
+            <div class="imageslide"> <img src="../fr/bonus/s1.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="vert">The creation of the earth</h2>
+                <p>5 billion years ago, the Earth was just a great cloud of burning gas that turned around the sun. With the time, the gases solidified and cooled down. Luckily, the gases formed an atmosphere without which life would have never existed. </p>
+        
+              </div>
+            <div class="imageslide"> <img src="../fr/bonus/s2.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="vert">The beginnings of life</h2>
+                <p> Once cooled, the planet was covered with immense oceans and there was no firm land. It is in water that life was first born: first single cell microscopic organism, and then more complex ones, plants and first water animals… When continents appeared, they progressively learned to get out of the water onto land and walk.</p>
+                
+              </div>
+            <div class="imageslide"> <img src="../fr/bonus/s3.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="vert">Dinosaurs</h2>
+                <p> Around 230 years before Jesus Christ, the first dinosaurs appeared: they were immense creatures which ruled without equals on the planets for dozens of millions of years. Around 65 million years before Jesus Christ, they all disappeared, for a reason that not yet fully understood.</p>
+             
+              </div>
+            <div class="imageslide"> <img src="../fr/bonus/s4.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="vert">The beginnings of humanity</h2>
+                <p> About 2.5 million years ago, the first prehistoric men appeared. But they not look much like us and still have the appearance of great apes. Our species, home sapiens is born around 200,000 years ago. His nearest cousin, Neanderthal man disappeared around 50,000.</p>
+             
+              </div>
+            <div class="imageslide"> <img src="../fr/bonus/s5.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="vert">The end of the Ice Age</h2>
+                <p>Around 12,000, it’s the end of the ice age. The earth is warming up and the condition of life for humans improves. While the prehistoric men were nomads and lived from hunting and fishing, some people first starting settling and invented agriculture. They then build the first cities: it is the beginning of the world as we know it today.</p>
+              
+              </div>
+            <div class="imageslide"> <img src="../fr/bonus/s6.jpg" > </div>
+          </div>
+           
+          </div>
+      </div>
+      </div>
+    
+    <!--fin du slide--> 
+    <!--début du slide-->
+    <div class="swiper-slide white-slide">
+        <div class="bonus">
+        <div class="colonnetextefull">
+            <h1  class="orange">The creation of the world in other civilizations</h1>
+            
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="orange">The civilizations of the Book</h2>
+                <p>For the Christians, The Muslim and the Jews, it is God that created the world: the first day he created light, the second day he created the sky. The third day he separates the sky from the earth. The Fourth day it is the sun and moon. The Fifth day, it is the turn of the animals and on the six he creates man in his own image.</p>
+                <h6>"Le jardin d'Eden" from Brueghel</h6>
+              </div>
+            <div class="imageslide"> <img src="../fr/bonus/c1.jpg" > </div>
+          </div>
+          
+          <div class="clear">
+            <div class="texteslide">
+                <h2 class="orange">The Egyptians</h2>
+                <p> At the beginning, there was a great ocean by the name of Nu. The sun is born from there and birthed Shu, the god of wind and Tefnut, the moisture.  From there he created the sky and the earth which at their turns had many children: Isis and Osiris, who like Zeus and Hera, who are the god couple who govern the universe. </p>
+                <h6>The woman character is the sky</h6>
+              </div>
+            <div class="imageslide"> <img src="../fr/bonus/c2.jpg" > </div>
+          </div>
+          
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="orange">The Hindus</h2>
+                <p> The Hindus believe in an egg that divides itself. It is for this reason that the world, universe is one common thing and indissociable. The three principal deities of Hinduism are Brahma who is the creation, Vishnu who is the preservation and Shiva who is the destruction necessary to the future rebirth. </p>
+                <h6>Shiva</h6>
+              </div>
+            <div class="imageslide"> <img src="../fr/bonus/c3.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="orange">The Nordic People</h2>
+                <p> At the beginning of the world, there is nothing but nothingness, fire and flames. The first living thing is a giant Ymir who falls asleep and during his sleep birthed numerous giants. One of them, Odin, killed him and with his body created the world: with his flesh he made the earth, with his blood he made the sea and his cranium was used to create the celestial sphere and his teeth and bones became rocks. </p>
+                <h6>"Ymir killed by Odin", by Lorenz Frølich (1820-1908)</h6>
+              </div>
+            <div class="imageslide"> <img src="../fr/bonus/c4.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="orange">The Dogon People</h2>
+                <p> For the Dogons also, all begins with an egg: Amma the creator of all thing lives within it until he creates words with his saliva and then the first seed. Amma, then, creates two twins, male and female who resemble fish. Finally the rain falls and with it begins the human era.</p>
+                <h6> Amma,  Dogon goddess</h6>
+              </div>
+            <div class="imageslide"> <img src="../fr/bonus/c5.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="orange">Toltec Religions</h2>
+                <p> The religions of the Toltecs were those of the ancient civilizations of South America. At the beginning, Tonacatecuhtli, the lord of our sustenance and Tonacacihuatl, lady nourishment, the first two gods. From their union is born a knife that breaks into shards when it falls. Of each shard a god is born. There is a multitude of them: some big, some small, some handsome, some ugly, some rich, some poor…</p>
+                <h6>Tonacatecuhtli - unknown artist</h6>
+              </div>
+            <div class="imageslide"> <img src="../fr/bonus/c6.jpg" > </div>
+          </div>
+      
+          </div>
+      </div>
+      </div>
+  </div>
+  </div>
+  <div id="nav">
+    <div id="menu"> <img id="menuImg" src="../fr/img/menu.png" alt="menu" /> </div>
+  </div>
+      <div class="popup chapitres">
+        <div class="croixfermeture chapitresfermer"><img src="../fr/img/croix.png"  alt=""/></div>
+        <h2>Contents</h2>
+       <div class="imageschapitres">  <a href="chapitre1.html"> <img src="../fr/resources/menu1.jpg" class=""  alt=""/> </a></div>
+          <div class="imageschapitres"> <a href="chapitre2.html"> <img src="../fr/resources/menu2.jpg"  alt=""/> </a></div>
+           <div class="imageschapitres"><a href="chapitre3.html"> <img src="../fr/resources/menu3.jpg"  alt=""/> </a></div>
+         <div class="imageschapitres">  <a href="chapitre4.html"> <img src="../fr/resources/menu4.jpg"  alt=""/> </a></div>
+          <div class="imageschapitres"> <a href="chapitre5.html"> <img src="../fr/resources/menu5.jpg"  alt=""/> </a></div>
+           <div class="imageschapitres"><a href="coinmalin.html"> <img src="../fr/resources/menu6.jpg"  alt=""/> </a></div>
+           
+        
+        </div>
+</div>
+
+ 
+<script src="../fr/js/jquery-1.10.1.min.js"></script> 
+<script src="../fr/js/idangerous.swiper-2.1.min.js"></script> 
+<script>
+$("#menu").click(function (){
+          $(".chapitres").toggleClass("visible");
+          });
+		  
+		   $(".chapitresfermer").click(function (){
+          $(".chapitres").toggleClass("visible");
+          });
+
+  var tabsSwiper = new Swiper('.swiper-container',{
+   
+    speed:500,
+  })
+  $(".tabs a").on('touchstart mousedown',function(e){
+    e.preventDefault()
+    $(".tabs .active").removeClass('active')
+    $(this).addClass('active')
+    tabsSwiper.swipeTo( $(this).index() )
+  })
+  $(".tabs a").click(function(e){
+    e.preventDefault()
+  })
+  
+  var swiperParent = new Swiper('.swiper-parent',{
+  
+    paginationClickable: true,
+    slidesPerView: 1,
+  })
+   var swiperNested1 = new Swiper('.swiper-nested-0',{
+    mode: 'vertical',
+ 
+    paginationClickable: true,
+  slidesPerView: 'auto',
+  })
+  var swiperNested1 = new Swiper('.swiper-nested-1',{
+    mode: 'vertical',
+  
+    paginationClickable: true,
+  slidesPerView: 'auto',
+  })
+  var swiperNested2 = new Swiper('.swiper-nested-2',{
+    mode: 'vertical',
+
+    paginationClickable: true,
+    slidesPerView: 'auto',
+  })
+   var swiperNested2 = new Swiper('.swiper-nested-3',{
+    mode: 'vertical',
+
+    paginationClickable: true,
+    slidesPerView: 'auto',
+  })
+  </script>
+</body>
+</html>
